@@ -14,5 +14,5 @@ The Generator uses the ReLU activation function except for the output layer whic
 The Optimizer will be Adam, and the researchers decided on a learning rate of 0.0002 because 0.0001 being to high. Furthermore the momentum term beta1 is 0.5 as the suggested value of 0.9 resulted in instability while training.
 
 
-# Example batch of fake cat faces
+# Example batch of fake cat faces after 100 Epochs
 ![fake_cats](https://user-images.githubusercontent.com/60868520/95565135-b54d2b80-0a5a-11eb-8978-e8edeaed5d82.png)
