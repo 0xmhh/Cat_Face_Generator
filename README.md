@@ -12,3 +12,7 @@ The Batch Normalization used after each ConvTranspose2d and Conv2d layer, except
 The Generator uses the ReLU activation function except for the output layer which is followed by a Tanh function (while no preprocessing is done images are scaled to the range of the tanh activation function which is [-1,1]). On the other side the Discriminator uses a leaky ReLU function with the slope of the leak being 0.2.
 
 The Optimizer will be Adam, and the researchers decided on a learning rate of 0.0002 because 0.0001 being to high. Furthermore the momentum term beta1 is 0.5 as the suggested value of 0.9 resulted in instability while training.
+
+
+# Example batch of fake cat faces
+![fake_cats](https://user-images.githubusercontent.com/60868520/95565135-b54d2b80-0a5a-11eb-8978-e8edeaed5d82.png)
