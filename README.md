@@ -7,7 +7,7 @@ https://arxiv.org/abs/1511.06434
 
 While earlier approaches used maxpooling layers the convolutional net of the DCGAN makes use of strided convolutions which enables the network to learn its own spatial downsampling.
 
-The Batch Normalization used after each ConvTranspose2d and Conv2d layer, except for the first Conv2d in the Discriminator and the last ConvTranspose2d layer in the Generator, helps to stabalize learning by normalizing the input to each unit to have zero mean and unit variance. This method allows for better gradient flow in deeper models and minimizes the problems that arise due to poor initialization. Furthermore Batch Normalization helps with preventing the gernerator from collapsing all samples to a single point.
+The Batch Normalization used after each ConvTranspose2d and Conv2d layer, except for the first Conv2d in the Discriminator and the last ConvTranspose2d layer in the Generator, helps to stabalize learning by normalizing the input to each unit to have zero mean and unit variance. This method allows for better gradient flow in deeper models and minimizes the problems that arise due to poor initialization. Furthermore Batch Normalization helps with preventing the Generator from collapsing all samples to a single point.
 
 The Generator uses the ReLU activation function except for the output layer which is followed by a Tanh function (while no preprocessing is done images are scaled to the range of the tanh activation function which is [-1,1]). On the other hand, the Discriminator uses a leaky ReLU function with the slope of the leak being 0.2.
 
