@@ -1,5 +1,5 @@
 # Cat_Face_Generator
-This repository generates new cat faces with the help of the PyTorch tutorial and the paper by Radford, Metz, and Chintala(2015) called: "Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks.
+This repository generates new cat faces with the help of the official PyTorch tutorial and the paper by Radford, Metz, and Chintala(2015) called: "Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks.
 https://arxiv.org/abs/1511.06434
 
 
