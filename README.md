@@ -1,3 +1,4 @@
+In case of loading issues of the .ipynb file:
 https://nbviewer.jupyter.org/github/Maxhin/Cat_Face_Generator/blob/main/Cat_Face_Generator.ipynb
 
 # Cat_Face_Generator
